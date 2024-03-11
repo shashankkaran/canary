@@ -29,7 +29,7 @@ const EditUser = (props) => {
     const updateFood = function (id) {
         const {bookName, bookAuthor, bookPrice, bookCategory} = selectedUser
 
-        Axios.put("http://localhost:3004/update", {
+        Axios.put("https://canary-cqbc.onrender.com/update", {
             id: id,
             bookName: bookName,
             bookAuthor: bookAuthor,

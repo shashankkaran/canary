@@ -12,7 +12,7 @@ const UserList = () => {
 
     const removeHandler = (id) => {
         removeUser(id);
-        Axios.delete(`http://localhost:3004/delete/${id}`);
+        Axios.delete(`https://canary-cqbc.onrender.com/delete/${id}`);
     };
 
     return (

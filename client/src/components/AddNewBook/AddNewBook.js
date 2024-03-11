@@ -76,7 +76,7 @@ const AddUser = () => {
             bookCategory: bookCategory.value,
         };
 
-        Axios.post("http://localhost:3004/insert", {
+        Axios.post("https://canary-cqbc.onrender.com/insert", {
             bookName: bookTitle.value,
             bookPrice: bookPrice.value,
             bookAuthor: bookAuthor.value,
